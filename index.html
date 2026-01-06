@@ -1,413 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Guide des slots – Hacksaw & Nolimit</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-          content="Page d'information accessible sur 9 machines à sous en ligne des providers Hacksaw Gaming et Nolimit City.">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Bois Noble — Bracelets artisanaux en bois</title>
+  <meta name="description" content="Bracelets artisanaux en bois naturel. Découvrez nos créations modernes, durables et éco-responsables." />
+  <meta name="theme-color" content="#2f5b2b" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
+
 <body>
-<header>
-    <div class="header-inner" role="banner">
-        <div class="logo">
-            <div class="logo-mark" aria-hidden="true"></div>
-            <span class="logo-text">SlotGuide</span>
-        </div>
-        <nav aria-label="Navigation principale">
-            <ul>
-                <li><a href="#hacksaw">Hacksaw</a></li>
-                <li><a href="#nolimit">Nolimit City</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+  <a class="skip-link" href="#contenu">Aller au contenu principal</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Bois Noble — Accueil">
+          <svg viewBox="0 0 24 24" class="brand-icon" aria-hidden="true" focusable="false">
+            <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              d="M20 3s-8.5 1-13 5.5S2 19 2 19s10.5 0 15-4.5S20 3 20 3z"/>
+            <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              d="M7 12c3 0 5 2 5 5"/>
+          </svg>
+          <span class="brand-name">Bois Noble</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Navigation principale">
+          <ul class="nav-list">
+            <li><a href="index.html" aria-current="page">Accueil</a></li>
+            <li><a href="collection.html">Collection</a></li>
+            <li><a href="a-propos.html">A propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <a href="collection.html" class="btn btn-primary">Découvrir</a>
         </nav>
+
+        <button class="menu-btn" id="menuBtn" type="button"
+          aria-expanded="false" aria-controls="menu-mobile">
+          <span aria-hidden="true">☰</span>
+          <span>Menu</span>
+        </button>
+      </div>
+
+      <nav class="menu-panel" id="menu-mobile" hidden aria-label="Navigation mobile">
+        <a href="index.html" aria-current="page">Accueil</a>
+        <a href="collection.html">Collection</a>
+        <a href="a-propos.html">Bois &amp; Origines</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-</header>
+  </header>
 
-<main>
-    <section class="intro-card" aria-labelledby="intro-title">
-        <div class="grid-two-cols">
-            <div>
-                <div class="pill">Guide pédagogique – Slots en ligne</div>
-                <h1 id="intro-title">Comprendre 9 machines à sous en ligne</h1>
-                <p>
-                    Cette page présente 9 slots des providers <strong>Hacksaw Gaming</strong> et
-                    <strong> Nolimit City</strong>. L’objectif est d’expliquer leurs grandes particularités
-                    (thème, style de bonus, volatilité…) de façon claire et accessible.
-                </p>
-                <p class="warning">
-                    Les jeux d’argent comportent des risques de perte et d’addiction. Joue uniquement si la loi de ton
-                    pays l’autorise, avec un budget limité que tu peux te permettre de perdre.
-                </p>
-            </div>
-            <div>
-                <p><strong>Ce que tu trouveras :</strong></p>
-                <ul>
-                    <li>Une fiche synthétique pour chaque slot.</li>
-                    <li>Une image illustrative et une courte vidéo de démonstration.</li>
-                    <li>Une barre de recherche pour filtrer rapidement les machines.</li>
-                    <li>Un formulaire unique en bas de page pour poser tes questions.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+  <main id="contenu">
+    <div class="container">
 
-    <!-- Recherche -->
-    <section class="search-section" aria-labelledby="search-title">
-        <h2 id="search-title">Rechercher une machine</h2>
-        <p class="search-label">Tape le nom d’un jeu ou d’un provider.</p>
-
-        <div class="search-wrapper">
-            <span aria-hidden="true">🔍</span>
-            <input id="search-input" type="search"
-                   placeholder="Ex. Chaos Crew, Deadwood…"
-                   aria-describedby="search-helper search-count"
-                   autocomplete="off">
-        </div>
-        <p id="search-helper" class="search-helper">
-            La recherche filtre la liste en temps réel. <span id="search-count"></span>
-        </p>
-    </section>
-
-    <!-- Hacksaw -->
-    <section id="hacksaw" aria-labelledby="hacksaw-title">
-        <h2 id="hacksaw-title">Sélection Hacksaw Gaming</h2>
-        <p class="section-tagline">5 machines axées sur des thèmes modernes et une forte volatilité.</p>
-
-        <div class="games-grid" id="games-list">
-            <!-- CHAOS CREW -->
-            <article class="game-card"
-                     data-game-name="Chaos Crew"
-                     data-provider="Hacksaw Gaming"
-                     aria-labelledby="game-chaos">
-                <div class="game-badge">Hacksaw Gaming</div>
-                <h3 id="game-chaos">Chaos Crew</h3>
-                <p class="game-meta">Thème urbain • volatilité très élevée • multiplicateurs aléatoires.</p>
-
-                <figure>
-                    <img src="images/chaos-crew.jpg"
-                         alt="Capture de la slot Chaos Crew avec un style graffiti et un chat tatoué.">
-                    <figcaption>Chaos Crew – univers street art et ambiance sombre.</figcaption>
-                </figure>
-
-                <p>
-                    Slot emblématique de Hacksaw, Chaos Crew repose sur des multiplicateurs qui peuvent
-                    se cumuler pendant le bonus. Les gains sont rares mais parfois spectaculaires, typique
-                    d’une volatilité extrême.
-                </p>
-
-                <video controls>
-                    <source src="videos/chaos-crew-demo.mp4" type="video/mp4">
-                    <track kind="subtitles" src="videos/chaos-crew-fr.vtt" srclang="fr" label="Français" default>
-                    Votre navigateur ne supporte pas la vidéo. Vous pouvez
-                    <a href="videos/chaos-crew-demo.mp4">télécharger la démonstration</a>.
-                </video>
-            </article>
-
-            <!-- WANTED DEAD OR A WILD -->
-            <article class="game-card"
-                     data-game-name="Wanted Dead or a Wild"
-                     data-provider="Hacksaw Gaming"
-                     aria-labelledby="game-wanted">
-                <div class="game-badge">Hacksaw Gaming</div>
-                <h3 id="game-wanted">Wanted Dead or a Wild</h3>
-                <p class="game-meta">Western sombre • plusieurs modes de bonus • gros potentiel.</p>
-
-                <figure>
-                    <img src="images/wanted-dead-or-a-wild.jpg"
-                         alt="Wanted Dead or a Wild avec un paysage désertique et un cow-boy masqué.">
-                    <figcaption>Wanted Dead or a Wild – duel au coucher du soleil version dark.</figcaption>
-                </figure>
-
-                <p>
-                    Ce jeu propose trois modes de free spins différents. Certains misent sur la fréquence
-                    de gains, d’autres sur le potentiel maximal grâce aux multiplicateurs collants.
-                </p>
-
-                <video controls>
-                    <source src="videos/wanted-demo.mp4" type="video/mp4">
-                    <track kind="subtitles" src="videos/wanted-fr.vtt" srclang="fr" label="Français" default>
-                </video>
-            </article>
-
-            <!-- HAND OF ANUBIS -->
-            <article class="game-card"
-                     data-game-name="Hand of Anubis"
-                     data-provider="Hacksaw Gaming"
-                     aria-labelledby="game-anubis">
-                <div class="game-badge">Hacksaw Gaming</div>
-                <h3 id="game-anubis">Hand of Anubis</h3>
-                <p class="game-meta">Égypte sombre • mécanique de clusters • multiplicateurs par colonne.</p>
-
-                <figure>
-                    <img src="images/hand-of-anubis.jpg"
-                         alt="Main d’Anubis illuminée sur un fond de pyramides sombres.">
-                    <figcaption>Hand of Anubis – Égypte antique version dark fantasy.</figcaption>
-                </figure>
-
-                <p>
-                    Ici, les gains se font en <em>clusters</em>, c’est-à-dire par groupes de symboles adjacents.
-                    Les bonus font grimper des multiplicateurs sous chaque colonne, ce qui peut transformer
-                    un petit cluster en gain massif.
-                </p>
-
-                <video controls>
-                    <source src="videos/hand-of-anubis-demo.mp4" type="video/mp4">
-                    <track kind="subtitles" src="videos/hand-of-anubis-fr.vtt" srclang="fr" label="Français" default>
-                </video>
-            </article>
-
-            <!-- RIP CITY -->
-            <article class="game-card"
-                     data-game-name="RIP City"
-                     data-provider="Hacksaw Gaming"
-                     aria-labelledby="game-rip">
-                <div class="game-badge">Hacksaw Gaming</div>
-                <h3 id="game-rip">RIP City</h3>
-                <p class="game-meta">Cartoon sombre • wilds expansifs • humour noir.</p>
-
-                <figure>
-                    <img src="images/rip-city.jpg"
-                         alt="RIP City avec un chat souriant et une souris dans un décor néon.">
-                    <figcaption>RIP City – graphismes cartoon mais ton très sarcastique.</figcaption>
-                </figure>
-
-                <p>
-                    La particularité de RIP City est de transformer certains symboles en wilds
-                    qui s’étendent sur toute la hauteur du rouleau, surtout pendant les tours gratuits.
-                </p>
-
-                <video controls>
-                    <source src="videos/rip-city-demo.mp4" type="video/mp4">
-                    <track kind="subtitles" src="videos/rip-city-fr.vtt" srclang="fr" label="Français" default>
-                </video>
-            </article>
-
-            <!-- DORK UNIT -->
-            <article class="game-card"
-                     data-game-name="Dork Unit"
-                     data-provider="Hacksaw Gaming"
-                     aria-labelledby="game-dork">
-                <div class="game-badge">Hacksaw Gaming</div>
-                <h3 id="game-dork">Dork Unit</h3>
-                <p class="game-meta">Clowns décalés • jokers collants • volatilité intermédiaire.</p>
-
-                <figure>
-                    <img src="images/dork-unit.jpg"
-                         alt="Dork Unit avec des clowns colorés en gros plan.">
-                    <figcaption>Dork Unit – slot plus légère avec un ton humoristique.</figcaption>
-                </figure>
-
-                <p>
-                    Moins sombre que d’autres titres du studio, Dork Unit mise sur des jokers qui
-                    restent plusieurs tours et peuvent remplir des colonnes entières.
-                </p>
-
-                <video controls>
-                    <source src="videos/dork-unit-demo.mp4" type="video/mp4">
-                    <track kind="subtitles" src="videos/dork-unit-fr.vtt" srclang="fr" label="Français" default>
-                </video>
-            </article>
-
-            <!-- SAN QUENTIN -->
-            <article class="game-card"
-                     data-game-name="San Quentin xWays"
-                     data-provider="Nolimit City"
-                     aria-labelledby="game-san">
-                <div class="game-badge">Nolimit City</div>
-                <h3 id="game-san">San Quentin xWays</h3>
-                <p class="game-meta">Prison américaine • volatilité extrême • xWays &amp; xSplit.</p>
-
-                <figure>
-                    <img src="images/san-quentin.jpg"
-                         alt="San Quentin xWays avec des murs de prison et des projecteurs.">
-                    <figcaption>San Quentin – atmosphère carcérale très marquée.</figcaption>
-                </figure>
-
-                <p>
-                    Considéré comme l’un des jeux les plus violents en termes de variance, San Quentin
-                    utilise des symboles divisés et des multiplicateurs de rouleaux pour créer de très
-                    gros gains… mais rarement.
-                </p>
-
-                <video controls>
-                    <source src="videos/san-quentin-demo.mp4" type="video/mp4">
-                    <track kind="subtitles" src="videos/san-quentin-fr.vtt" srclang="fr" label="Français" default>
-                </video>
-            </article>
-
-            <!-- MENTAL -->
-            <article class="game-card"
-                     data-game-name="Mental"
-                     data-provider="Nolimit City"
-                     aria-labelledby="game-mental">
-                <div class="game-badge">Nolimit City</div>
-                <h3 id="game-mental">Mental</h3>
-                <p class="game-meta">Thème asile • horreur psychologique • symboles fractionnés.</p>
-
-                <figure>
-                    <img src="images/mental.jpg"
-                         alt="Mental avec des portraits de patients dans un asile inquiétant.">
-                    <figcaption>Mental – ambiance de film d’horreur psychologique.</figcaption>
-                </figure>
-
-                <p>
-                    Le jeu mêle plusieurs types de symboles fractionnés et de multiplicateurs appliqués
-                    à certains personnages, ce qui rend la grille de lecture complexe mais très riche.
-                </p>
-
-                <video controls>
-                    <source src="videos/mental-demo.mp4" type="video/mp4">
-                    <track kind="subtitles" src="videos/mental-fr.vtt" srclang="fr" label="Français" default>
-                </video>
-            </article>
-
-            <!-- DEADWOOD -->
-            <article class="game-card"
-                     data-game-name="Deadwood"
-                     data-provider="Nolimit City"
-                     aria-labelledby="game-deadwood">
-                <div class="game-badge">Nolimit City</div>
-                <h3 id="game-deadwood">Deadwood</h3>
-                <p class="game-meta">Western • wilds expansifs • 2 modes de free spins.</p>
-
-                <figure>
-                    <img src="images/deadwood.jpg"
-                         alt="Deadwood avec un chasseur de primes et une ville western poussiéreuse.">
-                    <figcaption>Deadwood – version très sombre du western classique.</figcaption>
-                </figure>
-
-                <p>
-                    Deadwood propose deux types de bonus : un plus stable, l’autre beaucoup plus
-                    volatil. Les wilds expansifs sont au cœur du gameplay.
-                </p>
-
-                <video controls>
-                    <source src="videos/deadwood-demo.mp4" type="video/mp4">
-                    <track kind="subtitles" src="videos/deadwood-fr.vtt" srclang="fr" label="Français" default>
-                </video>
-            </article>
-
-            <!-- FIRE IN THE HOLE -->
-            <article class="game-card"
-                     data-game-name="Fire in the Hole xBomb"
-                     data-provider="Nolimit City"
-                     aria-labelledby="game-fire">
-                <div class="game-badge">Nolimit City</div>
-                <h3 id="game-fire">Fire in the Hole xBomb</h3>
-                <p class="game-meta">Mineurs &amp; dynamite • xBomb • rouleaux qui s’ouvrent.</p>
-
-                <figure>
-                    <img src="images/fire-in-the-hole.jpg"
-                         alt="Fire in the Hole avec un mineur barbu et des barils d’explosifs.">
-                    <figcaption>Fire in the Hole – explosions en chaîne sous terre.</figcaption>
-                </figure>
-
-                <p>
-                    Les symboles xBomb font exploser des zones complètes de la grille et augmentent un
-                    multiplicateur global, surtout pendant les bonus où le nombre de lignes peut s’étendre.
-                </p>
-
-                <video controls>
-                    <source src="videos/fire-in-the-hole-demo.mp4" type="video/mp4">
-                    <track kind="subtitles" src="videos/fire-in-the-hole-fr.vtt" srclang="fr" label="Français" default>
-                </video>
-            </article>
-        </div>
-    </section>
-
-    <!-- Contact global -->
-    <section id="contact" class="contact-card" aria-labelledby="contact-title">
-        <h2 id="contact-title">Une question sur ces machines&nbsp;?</h2>
+      <section class="hero">
+        <h1>Bracelets artisanaux en bois</h1>
         <p>
-            Utilise ce formulaire unique pour poser une question générale ou sur un jeu en particulier.
-            Il ne sert pas à ouvrir de compte ni à miser de l’argent.
+          Des créations modernes et durables, façonnées à la main à partir
+          d’essences de bois soigneusement sélectionnées.
         </p>
 
-        <form action="#" method="post">
-            <div>
-                <label for="nom">Nom (ou pseudo)</label>
-                <input type="text" id="nom" name="nom" autocomplete="name" required>
+        <div class="center-cta">
+          <a href="collection.html" class="btn btn-primary">
+            Découvrir la collection →
+          </a>
+        </div>
+      </section>
+
+      <section class="section home-collection" aria-labelledby="titre-collection">
+        <div class="section-title">
+          <h2 id="titre-collection">Notre Collection</h2>
+          <p>
+            Une sélection de bracelets uniques, entre élégance naturelle et design contemporain.
+          </p>
+        </div>
+
+        <div class="grid-3">
+
+          <article class="card">
+            <div class="card-media">
+              <img
+                src="image_bracelet/Bois_noyer.webp"
+                alt="Bracelet artisanal en bois de noyer"
+                loading="lazy"
+                width="800" height="600"
+              />
             </div>
-
-            <div>
-                <label for="email">Adresse e-mail</label>
-                <input type="email" id="email" name="email" autocomplete="email" required>
+            <div class="card-body">
+              <div class="eyebrow">Noyer</div>
+              <h3>Héritage</h3>
+              <p>Teinte profonde et caractère affirmé.</p>
+              <a href="collection.html#noyer-heritage" class="link-arrow">Voir le produit →</a>
             </div>
+          </article>
 
-            <div>
-                <label for="jeu">Jeu concerné (facultatif)</label>
-                <select id="jeu" name="jeu">
-                    <option value="">Tous les jeux / question générale</option>
-                    <option>Chaos Crew</option>
-                    <option>Wanted Dead or a Wild</option>
-                    <option>Hand of Anubis</option>
-                    <option>RIP City</option>
-                    <option>Dork Unit</option>
-                    <option>San Quentin xWays</option>
-                    <option>Mental</option>
-                    <option>Deadwood</option>
-                    <option>Fire in the Hole xBomb</option>
-                </select>
+          <article class="card">
+            <div class="card-media">
+              <img
+                src="image_bracelet/Bois_d_erable.webp"
+                alt="Bracelet artisanal en bois d’érable"
+                loading="lazy"
+                width="800" height="600"
+              />
             </div>
-
-            <div>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
+            <div class="card-body">
+              <div class="eyebrow">Érable</div>
+              <h3>Aurore</h3>
+              <p>Clair, léger et résolument moderne.</p>
+              <a href="collection.html#erable-aurore" class="link-arrow">Voir le produit →</a>
             </div>
+          </article>
 
-            <p class="notice-jeu">
-                Merci de ne pas demander de conseils sur le montant des mises, mais plutôt des éléments
-                de compréhension (fonctionnement d’un bonus, lecture d’une grille, etc.).
-            </p>
+          <article class="card">
+            <div class="card-media">
+              <img
+                src="image_bracelet/Bois_d_olivier.webp"
+                alt="Bracelet artisanal en bois d’olivier"
+                loading="lazy"
+                width="800" height="600"
+              />
+            </div>
+            <div class="card-body">
+              <div class="eyebrow">Olivier</div>
+              <h3>Méditerranée</h3>
+              <p>Veines uniques et chaleur naturelle.</p>
+              <a href="collection.html#olivier-mediterranee" class="link-arrow">Voir le produit →</a>
+            </div>
+          </article>
 
-            <button type="submit">Envoyer la question</button>
-        </form>
-    </section>
-</main>
+        </div>
 
-<footer>
-    <p>
-        &copy; 2025 SlotGuide – Page pédagogique sur les machines à sous en ligne.  
-        Ce contenu est informatif et ne constitue pas une incitation au jeu d’argent.
-    </p>
+        <div class="center-cta">
+          <a href="collection.html" class="btn btn-outline">
+            Voir tous les produits →
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="engagement" aria-labelledby="titre-engagement">
+        <div class="section-title">
+          <h2 id="titre-engagement">Nos engagements</h2>
+          <p>Une fabrication responsable, pensée pour durer.</p>
+        </div>
+
+        <div class="values">
+          <article class="value">
+            <div class="icon" aria-hidden="true">🍃</div>
+            <h3>Éco-responsable</h3>
+            <p>Bois issus de forêts gérées durablement.</p>
+          </article>
+
+          <article class="value">
+            <div class="icon" aria-hidden="true">✋</div>
+            <h3>Artisanal</h3>
+            <p>Chaque bracelet est façonné à la main.</p>
+          </article>
+
+          <article class="value">
+            <div class="icon" aria-hidden="true">♻️</div>
+            <h3>Durable</h3>
+            <p>Des matériaux pensés pour traverser le temps.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contact" aria-labelledby="titre-contact">
+        <div class="section-title">
+          <h2 id="titre-contact">Contact</h2>
+          <p>Une question ? Nous sommes à votre écoute.</p>
+        </div>
+
+        <p style="text-align:center">
+          <a href="contact.html" class="btn btn-primary">
+            contact@boisnoble.fr
+          </a>
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <strong class="footer-title">Bois Noble</strong>
+        <p>Bracelets artisanaux en bois, conçus pour ceux qui apprécient l’élégance naturelle et durable.</p>
+      </div>
+
+      <nav class="footer-col" aria-label="Navigation pied de page">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="collection.html">Produit</a></li>
+          <li><a href="collection.html">Définitions</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <h3>Informations</h3>
+        <ul>
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+          <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+          <li><a href="accessibilite.html">Accessibilité</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </footer>
-
-<script>
-    (function () {
-        const input = document.getElementById('search-input');
-        const cards = Array.from(document.querySelectorAll('.game-card'));
-        const countSpan = document.getElementById('search-count');
-
-        function updateCount(visible) {
-            const total = cards.length;
-            const text = visible === total
-                ? `${total} jeux affichés`
-                : `${visible} jeu(x) sur ${total} correspond(ent) à ta recherche`;
-            countSpan.textContent = text;
-        }
-
-        function filterGames() {
-            const query = input.value.trim().toLowerCase();
-            let visibleCount = 0;
-
-            cards.forEach(card => {
-                const name = card.dataset.gameName.toLowerCase();
-                const provider = card.dataset.provider.toLowerCase();
-                const text = (name + ' ' + provider).toLowerCase();
-
-                const match = text.includes(query);
-                card.classList.toggle('hidden', !match);
-                if (match) visibleCount++;
-            });
-
-            updateCount(visibleCount);
-        }
-
-        input.addEventListener('input', filterGames);
-        updateCount(cards.length);
-    })();
-</script>
 </body>
 </html>

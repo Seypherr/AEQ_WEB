@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Produit | AEQ</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu principal</a>
+    <header class="site-header">
+        <div class="container">
+        <div class="header-inner">
+            <a class="brand" href="index.html" aria-label="Bois Noble — Accueil">
+            <svg viewBox="0 0 24 24" class="brand-icon" aria-hidden="true" focusable="false">
+                <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                d="M20 3s-8.5 1-13 5.5S2 19 2 19s10.5 0 15-4.5S20 3 20 3z"/>
+                <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                d="M7 12c3 0 5 2 5 5"/>
+            </svg>
+            <span class="brand-name">Bois Noble</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Navigation principale">
+            <ul class="nav-list">
+                <li><a href="index.html" aria-current="page">Accueil</a></li>
+                <li><a href="collection.html">Collection</a></li>
+                <li><a href="a-propos.html">A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="collection.html" class="btn btn-primary">Découvrir</a>
+            </nav>
+
+            <button class="menu-btn" id="menuBtn" type="button"
+            aria-expanded="false" aria-controls="menu-mobile">
+            <span aria-hidden="true">☰</span>
+            <span>Menu</span>
+            </button>
+        </div>
+
+        <nav class="menu-panel" id="menu-mobile" hidden aria-label="Navigation mobile">
+            <a href="index.html" aria-current="page">Accueil</a>
+            <a href="collection.html">Collection</a>
+            <a href="a-propos.html">Bois &amp; Origines</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        </div>
+    </header>
+  <main id="main" tabindex="-1" class="container" style="padding-top: 2rem;">
+    <div id="productRoot" aria-busy="true"></div>
+
+    <p style="margin-top: 1.25rem;">
+      <a class="btn btn-outline" href="collection.html">Retour à la collection</a>
+    </p>
+  </main>
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-inner">
+        <div class="footer-brand">
+            <strong class="footer-title">Bois Noble</strong>
+            <p>Bracelets artisanaux en bois, conçus pour ceux qui apprécient l’élégance naturelle et durable.</p>
+        </div>
+
+        <nav class="footer-col" aria-label="Navigation pied de page">
+            <h3>Navigation</h3>
+            <ul>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="collection.html">Produit</a></li>
+            <li><a href="collection.html">Définitions</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer-col">
+            <h3>Informations</h3>
+            <ul>
+            <li><a href="mentions-legales.html">Mentions légales</a></li>
+            <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+            <li><a href="accessibilite.html">Accessibilité</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,299 @@
+[
+  {
+    "id": "noyer-heritage",
+    "wood": { "key": "noyer", "label": "Noyer" },
+    "name": "Héritage",
+    "description": "Teinte profonde, finition satinée, style affirmé.",
+    "price": 59.99,
+    "badges": ["Fait main"],
+    "image": {
+      "src": "image_bracelet/Bois_noyer.webp",
+      "alt": "Bracelet en bois de noyer — Héritage",
+      "width": 800,
+      "height": 600
+    },
+    "details": {
+      "longDescription": "Le modèle Héritage incarne l’élégance intemporelle du noyer. Chaque bracelet est façonné à partir de bois massif soigneusement sélectionné pour son veinage profond et sa résistance naturelle. La finition satinée met en valeur la matière tout en garantissant un toucher doux et agréable au quotidien.",
+      "features": [
+        "Bois de noyer massif sélectionné",
+        "Fabrication artisanale",
+        "Finition satinée résistante"
+      ],
+      "care": [
+        "Éviter le contact prolongé avec l’eau",
+        "Nettoyer avec un chiffon sec et doux",
+        "Ranger à l’abri de l’humidité"
+      ],
+      "origin": "Bois issu de filières responsables européennes.",
+      "dimensions": {
+        "widthMm": 12,
+        "thicknessMm": 6
+      }
+    },
+    "rank": 1
+  },
+  {
+    "id": "erable-aurore",
+    "wood": { "key": "erable", "label": "Érable" },
+    "name": "Aurore",
+    "description": "Clair et lumineux, minimal et moderne.",
+    "price": 44.99,
+    "badges": ["Nouveau"],
+    "image": {
+      "src": "image_bracelet/Bois_d_erable.webp",
+      "alt": "Bracelet en bois d’érable — Aurore",
+      "width": 800,
+      "height": 600
+    },
+    "details": {
+      "longDescription": "Aurore se distingue par la clarté naturelle de l’érable. Son design épuré et ses tons lumineux en font un bracelet discret, moderne et facile à associer, idéal pour un usage quotidien.",
+      "features": [
+        "Bois d’érable clair et homogène",
+        "Design minimaliste",
+        "Bracelet léger et confortable"
+      ],
+      "care": [
+        "Éviter l’exposition prolongée au soleil",
+        "Nettoyer avec un chiffon sec",
+        "Éviter les produits abrasifs"
+      ],
+      "origin": "Érable issu de forêts gérées durablement.",
+      "dimensions": {
+        "widthMm": 11,
+        "thicknessMm": 5
+      }
+    },
+    "rank": 2
+  },
+  {
+    "id": "olivier-mediterranee",
+    "wood": { "key": "olivier", "label": "Olivier" },
+    "name": "Méditerranée",
+    "description": "Veines naturelles et chaleur du sud.",
+    "price": 49.99,
+    "badges": ["Best-seller"],
+    "image": {
+      "src": "image_bracelet/Bois_olivier.webp",
+      "alt": "Bracelet en bois d’olivier — Méditerranée",
+      "width": 800,
+      "height": 600
+    },
+    "details": {
+      "longDescription": "Inspiré par les paysages du sud, Méditerranée révèle les veinages uniques du bois d’olivier. Chaque pièce est différente, offrant un caractère authentique et chaleureux.",
+      "features": [
+        "Veinage unique à chaque bracelet",
+        "Bois dense et durable",
+        "Aspect naturel et chaleureux"
+      ],
+      "care": [
+        "Éviter l’immersion dans l’eau",
+        "Essuyer après exposition à l’humidité",
+        "Entretenir occasionnellement avec une huile naturelle"
+      ],
+      "origin": "Bois d’olivier méditerranéen revalorisé.",
+      "dimensions": {
+        "widthMm": 12,
+        "thicknessMm": 6
+      }
+    },
+    "rank": 3
+  },
+  {
+    "id": "chene-classique",
+    "wood": { "key": "chene", "label": "Chêne" },
+    "name": "Classique",
+    "description": "Robuste, intemporel, texture affirmée.",
+    "price": 39.99,
+    "badges": ["Essentiel"],
+    "image": {
+      "src": "image_bracelet/Bois_chene.webp",
+      "alt": "Bracelet en bois de chêne — Classique",
+      "width": 800,
+      "height": 600
+    },
+    "details": {
+      "longDescription": "Classique met à l’honneur la robustesse du chêne. Son aspect brut et sa longévité naturelle en font un bracelet fiable, pensé pour durer.",
+      "features": [
+        "Bois de chêne solide",
+        "Style intemporel",
+        "Résistance naturelle"
+      ],
+      "care": [
+        "Nettoyer avec un chiffon sec",
+        "Éviter les chocs",
+        "Stocker à température ambiante"
+      ],
+      "origin": "Chêne européen issu de forêts certifiées.",
+      "dimensions": {
+        "widthMm": 13,
+        "thicknessMm": 6
+      }
+    },
+    "rank": 4
+  },
+  {
+    "id": "bambou-zen",
+    "wood": { "key": "bambou", "label": "Bambou" },
+    "name": "Zen",
+    "description": "Léger, souple, esprit minimal.",
+    "price": 41.99,
+    "badges": ["Léger"],
+    "image": {
+      "src": "image_bracelet/Bois_bambou.webp",
+      "alt": "Bracelet en bambou — Zen",
+      "width": 800,
+      "height": 600
+    },
+    "details": {
+      "longDescription": "Zen est conçu pour ceux qui recherchent la légèreté et la simplicité. Le bambou offre un confort optimal et une esthétique épurée.",
+      "features": [
+        "Bambou léger et flexible",
+        "Design épuré",
+        "Confort prolongé"
+      ],
+      "care": [
+        "Éviter l’humidité excessive",
+        "Nettoyer délicatement",
+        "Ranger à plat"
+      ],
+      "origin": "Bambou cultivé de manière responsable.",
+      "dimensions": {
+        "widthMm": 10,
+        "thicknessMm": 5
+      }
+    },
+    "rank": 5
+  },
+  {
+    "id": "cerisier-rose",
+    "wood": { "key": "cerisier", "label": "Cerisier" },
+    "name": "Rosé",
+    "description": "Nuances douces, rendu chaleureux.",
+    "price": 46.99,
+    "badges": ["Tendance"],
+    "image": {
+      "src": "image_bracelet/Bois_cerisier.webp",
+      "alt": "Bracelet en bois de cerisier — Rosé",
+      "width": 800,
+      "height": 600
+    },
+    "details": {
+      "longDescription": "Rosé séduit par ses teintes délicates et son toucher soyeux. Le bois de cerisier apporte une chaleur naturelle et élégante.",
+      "features": [
+        "Bois de cerisier aux tons rosés",
+        "Texture fine et lisse",
+        "Esthétique moderne"
+      ],
+      "care": [
+        "Éviter les frottements",
+        "Nettoyer avec un chiffon doux",
+        "Conserver à l’abri de l’humidité"
+      ],
+      "origin": "Cerisier issu de forêts européennes.",
+      "dimensions": {
+        "widthMm": 11,
+        "thicknessMm": 5
+      }
+    },
+    "rank": 6
+  },
+  {
+    "id": "acajou-royal",
+    "wood": { "key": "acajou", "label": "Acajou" },
+    "name": "Royal",
+    "description": "Rouge profond, finition premium.",
+    "price": 57.99,
+    "badges": ["Premium"],
+    "image": {
+      "src": "image_bracelet/Bois_acajou.webp",
+      "alt": "Bracelet en bois d’acajou — Royal",
+      "width": 800,
+      "height": 600
+    },
+    "details": {
+      "longDescription": "Royal se distingue par la profondeur de sa teinte rouge et son aspect luxueux. L’acajou est reconnu pour sa stabilité et son élégance.",
+      "features": [
+        "Bois d’acajou premium",
+        "Finition haut de gamme",
+        "Excellente durabilité"
+      ],
+      "care": [
+        "Éviter l’exposition prolongée à l’eau",
+        "Nettoyer régulièrement",
+        "Stocker dans un endroit sec"
+      ],
+      "origin": "Acajou sélectionné auprès de filières responsables.",
+      "dimensions": {
+        "widthMm": 12,
+        "thicknessMm": 6
+      }
+    },
+    "rank": 7
+  },
+  {
+    "id": "hetre-pure",
+    "wood": { "key": "hetre", "label": "Hêtre" },
+    "name": "Pure",
+    "description": "Sobre, clair, texture fine.",
+    "price": 42.99,
+    "badges": ["Naturel"],
+    "image": {
+      "src": "image_bracelet/Bois_hêtre.webp",
+      "alt": "Bracelet en bois de hêtre — Pure",
+      "width": 800,
+      "height": 600
+    },
+    "details": {
+      "longDescription": "Pure met en avant la sobriété et la finesse du hêtre. Son grain régulier et sa teinte claire en font un bracelet discret et polyvalent.",
+      "features": [
+        "Bois de hêtre homogène",
+        "Design épuré",
+        "Confort quotidien"
+      ],
+      "care": [
+        "Nettoyer à sec",
+        "Éviter l’humidité",
+        "Conserver à température stable"
+      ],
+      "origin": "Hêtre européen certifié.",
+      "dimensions": {
+        "widthMm": 11,
+        "thicknessMm": 5
+      }
+    },
+    "rank": 8
+  },
+  {
+    "id": "ebene-minuit",
+    "wood": { "key": "ebene", "label": "Ébène" },
+    "name": "Minuit",
+    "description": "Noir intense, contraste fort, signature élégante.",
+    "price": 58.99,
+    "badges": ["Édition"],
+    "image": {
+      "src": "image_bracelet/Bois_ébène.webp",
+      "alt": "Bracelet en bois d’ébène — Minuit",
+      "width": 800,
+      "height": 600
+    },
+    "details": {
+      "longDescription": "Minuit incarne l’élégance absolue avec son noir profond et son contraste saisissant. L’ébène, bois rare et dense, confère à ce bracelet un caractère exclusif.",
+      "features": [
+        "Bois d’ébène dense et précieux",
+        "Contraste visuel marqué",
+        "Finition soignée"
+      ],
+      "care": [
+        "Éviter l’eau",
+        "Nettoyer délicatement",
+        "Ranger à l’abri de la lumière"
+      ],
+      "origin": "Ébène sélectionné selon des normes strictes de durabilité.",
+      "dimensions": {
+        "widthMm": 12,
+        "thicknessMm": 6
+      }
+    },
+    "rank": 9
+  }
+]

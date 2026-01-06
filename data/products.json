@@ -1,0 +1,182 @@
+[
+  {
+    "id": "noyer-heritage",
+    "wood": {
+      "key": "noyer",
+      "label": "Noyer"
+    },
+    "name": "Héritage",
+    "description": "Teinte profonde, finition satinée, style affirmé.",
+    "price": 59.99,
+    "badges": [
+      "Fait main"
+    ],
+    "image": {
+      "src": "image_bracelet/Bois_noyer.webp",
+      "alt": "Bracelet en bois de noyer — Héritage",
+      "width": 800,
+      "height": 600
+    },
+    "rank": 1
+  },
+  {
+    "id": "erable-aurore",
+    "wood": {
+      "key": "erable",
+      "label": "Érable"
+    },
+    "name": "Aurore",
+    "description": "Clair et lumineux, minimalisme nordique.",
+    "price": 44.99,
+    "badges": [
+      "Fait main"
+    ],
+    "image": {
+      "src": "image_bracelet/Bois_d_erable.webp",
+      "alt": "Bracelet en bois d’érable — Aurore",
+      "width": 800,
+      "height": 600
+    },
+    "rank": 2
+  },
+  {
+    "id": "olivier-mediterranee",
+    "wood": {
+      "key": "olivier",
+      "label": "Olivier"
+    },
+    "name": "Méditerranée",
+    "description": "Veines uniques, chaleur et élégance naturelle.",
+    "price": 49.99,
+    "badges": [
+      "Fait main"
+    ],
+    "image": {
+      "src": "image_bracelet/Bois_d_olivier.webp",
+      "alt": "Bracelet en bois d’olivier — Méditerranée",
+      "width": 800,
+      "height": 600
+    },
+    "rank": 3
+  },
+  {
+    "id": "chene-atelier",
+    "wood": {
+      "key": "chene",
+      "label": "Chêne"
+    },
+    "name": "Atelier",
+    "description": "Robuste, intemporel, parfait au quotidien.",
+    "price": 39.99,
+    "badges": [
+      "Fait main"
+    ],
+    "image": {
+      "src": "image_bracelet/Bois_de_chêne.webp",
+      "alt": "Bracelet en bois de chêne — Atelier",
+      "width": 800,
+      "height": 600
+    },
+    "rank": 4
+  },
+  {
+    "id": "bambou-zen",
+    "wood": {
+      "key": "bambou",
+      "label": "Bambou"
+    },
+    "name": "Zen",
+    "description": "Ultra léger, esprit épuré, confort maximal.",
+    "price": 42.99,
+    "badges": [
+      "Fait main"
+    ],
+    "image": {
+      "src": "image_bracelet/Bois_de_bambou.webp",
+      "alt": "Bracelet en bois de bambou — Zen",
+      "width": 800,
+      "height": 600
+    },
+    "rank": 5
+  },
+  {
+    "id": "cerisier-rosee",
+    "wood": {
+      "key": "cerisier",
+      "label": "Cerisier"
+    },
+    "name": "Rosée",
+    "description": "Teinte chaleureuse, douce et contemporaine.",
+    "price": 47.99,
+    "badges": [
+      "Fait main"
+    ],
+    "image": {
+      "src": "image_bracelet/Bois_de_cerisier.webp",
+      "alt": "Bracelet en bois de cerisier — Rosée",
+      "width": 800,
+      "height": 600
+    },
+    "rank": 6
+  },
+  {
+    "id": "acajou-horizon",
+    "wood": {
+      "key": "acajou",
+      "label": "Acajou"
+    },
+    "name": "Horizon",
+    "description": "Rouge profond, rendu premium, style urbain.",
+    "price": 54.99,
+    "badges": [
+      "Fait main"
+    ],
+    "image": {
+      "src": "image_bracelet/Bois_acajou.webp",
+      "alt": "Bracelet en bois d’acajou — Horizon",
+      "width": 800,
+      "height": 600
+    },
+    "rank": 7
+  },
+  {
+    "id": "hetre-pure",
+    "wood": {
+      "key": "hetre",
+      "label": "Hêtre"
+    },
+    "name": "Pure",
+    "description": "Texture fine, look moderne, finition mate.",
+    "price": 45.99,
+    "badges": [
+      "Fait main"
+    ],
+    "image": {
+      "src": "image_bracelet/Bois_hêtre.webp",
+      "alt": "Bracelet en bois de hêtre — Pure",
+      "width": 800,
+      "height": 600
+    },
+    "rank": 8
+  },
+  {
+    "id": "ebene-minuit",
+    "wood": {
+      "key": "ebene",
+      "label": "Ébène"
+    },
+    "name": "Minuit",
+    "description": "Noir intense, contraste fort, signature élégante.",
+    "price": 58.99,
+    "badges": [
+      "Fait main"
+    ],
+    "image": {
+      "src": "image_bracelet/Bois_ébène.webp",
+      "alt": "Bracelet en bois d’ébène — Minuit",
+      "width": 800,
+      "height": 600
+    },
+    "rank": 9
+  }
+]
